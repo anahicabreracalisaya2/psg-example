@@ -1,0 +1,1 @@
+Este es un repositorio donde se van a guardar los retos que se realizan cada sesion, este tiene gran importancia ya que no solo refleja cuanto estoy aprendiendo sino tambien la responsabilidad que tengo con el curso de **Python Study Group For Beginners**.
