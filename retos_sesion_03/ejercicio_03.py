@@ -1,0 +1,8 @@
+print("1. Recoger todos los platos sucios del area y colocarlos en un lugar")
+print("2. Sacar los desperdicios de los platos")
+print("3. Colocar los platos en el lavaplatos")
+print("4. Realizar en un bol aparte lavasa con la esponja y lava-vajillas")
+print("5. Lavar los platos refregandolos con la esponja")
+print("6. Enjuagar los platos con agua")
+print("7. Dejar escurrir por 10 minutos o secarlos directamente con un repasador")
+print("8. Guardar los platos")
