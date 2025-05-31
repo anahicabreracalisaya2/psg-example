@@ -1,14 +1,13 @@
 print("Tipos de datos booleanos")
 print (True)
 print (False)
-	# Operaciones aritméticas con booleanos
+# Operaciones aritméticas con booleanos
 print (True + True)
 print (True * True)
 print (True * False)
 print (False + False)
 print (False * False)
 print ("Números y booleanos")
-
 print (10 + True)
 print (10 + False)
 print (10 * True)
