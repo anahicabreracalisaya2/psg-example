@@ -1,0 +1,6 @@
+x = input("Ingrese un primer valor: ")
+y = input("Ingrese un segundo valor: ")
+z = input("Ingrese un tercer valor: ")
+cordenada=(int(x), int(y), int(z))
+print(cordenada)
+print(type(cordenada))
