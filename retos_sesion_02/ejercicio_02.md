@@ -6,6 +6,7 @@ por lo que trabaje con jovenes, sin embargo despues me enfoque en mis estudios e
 en donde apendi a **programar** en algunos lenguales de progrmacion como *R, spss y stata* 
 Ahora me encuentro estudiando Gastronomia, debido a que es algo que me apaciona ademas de 
 programar y las matemáticas.
+> Muchos de mis gustos y valores aprendidos de mis abuelos 
 Ahora tengo otros puntos de vistas de la vida por lo que quiero preocuparme en:
 1. mi salud
    * hacer mas ejercicio
@@ -21,4 +22,5 @@ Ahora tengo otros puntos de vistas de la vida por lo que quiero preocuparme en:
 Que harias si no tuvieras miedo!
 - Siempre que comienzo algo me aterra el pensar que no lo lograre y me ayuda en esto
 - Estar en mi zona de confort todo el tiempo me limita a animarme a lo nuevo
-  
+  > Son frases que nacen a raíz de momentos dificiles por los que pase en mi vida 
+
