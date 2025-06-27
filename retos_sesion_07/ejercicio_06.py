@@ -1,3 +1,4 @@
+# Funciones no vistas
 # Verificar minusculas
 ver='america'.islower()
 print(ver, type(ver))
