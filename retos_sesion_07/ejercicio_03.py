@@ -1,2 +1,2 @@
-palabra="casas"
+palabra= "casas"
 print(palabra[1::2])
