@@ -194,3 +194,51 @@ print (lista)
 print (sum(lista))
 
 ##Compracion de listas
+print ("Comparación de listas")
+lista = [1,2,3,4,5]
+print (lista)
+print (3 in lista)
+print (6 in lista)
+print (3 not in lista)
+print (6 not in lista)
+print ([1,2,3] in lista)
+print ("Comparación de listas")
+lista1 = [1,2,3,4,5]
+lista2 = [1,2,3,4,5]
+lista3 = [1,2]
+print (lista1, lista2, lista3)
+print (lista1 is lista2)
+print (lista1 is not lista2)
+print (lista3 is lista1)
+
+##Operadores de comparacion
+print ("Menor y Menor Igual que")
+print ([1,2,3] <= [1,2,4])
+print ([1,2,3] <= [1,2,2,2])
+print ([1,2,3] <= [2])
+print ([1,2,3] < [1,2,3])
+print ([1,2,3] <= [1,2,3])
+print ("Mayor y Mayor Igual que")
+print ([1,2,3] >= [1,2,4])
+print ([1,2,3] >= [1,2,2,2])
+print ([1,2,3] >= [2])
+print ([1,2,3] > [1,2,3])
+print ([1,2,3] >= [1,2,3])
+print ("Igual y Desigual que")
+print ([1,2,3] == [1,2,3])
+print ([1,2,3] == [1,2,4])
+print ([1,2,3] != [1,2,3])
+print ([1,2,3] != [1,2,4])
+
+##Listas anidadas
+print ("Listas anidadas")
+lista = [1,2,3,[4,5,6]]
+print (lista)
+print (type(lista))
+valor_lista = lista[3]
+print (valor_lista)
+print (type(valor_lista))
+valor = valor_lista[1]
+print (valor)
+print (type(valor))
+
