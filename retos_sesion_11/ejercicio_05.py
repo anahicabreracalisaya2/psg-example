@@ -1,0 +1,41 @@
+# Diccionario inicial del arca de Noé
+arca = {"🐶": 2, "🐱": 2, "🐯": 2, "🐵": 2, "🦄": 0, "🦒": 1}
+print("Esta es mi arca:",arca)
+# Añadir 3 especies más usando update()
+arca.update({"🐘": 2, "🦓": 2, "🐼": 1})
+print("La nueva arca es:", arca)
+# Tomar lista de los animales en el arca iterando el diccionario
+print("Listado de los animales")
+print("Son en total:", len(arca))
+iterador = iter(arca.items())
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+siguiente = next(iterador)
+print(siguiente)
+# Verificar si en el arca existe '🐲' (dragón)
+existe = "🐲" in arca
+print("Existe el dragon🐲:",existe)
+# Eliminar la especie unicornio (🦄)
+arca.pop("🦄")
+print("Ahora sin unicornio:",arca)
+# Modificar el valor de la especie jirafa (🦒) por 2
+arca["🦒"] = 2
+print("Incremento de jirafas:",arca)
+# Vaciar el arca después del diluvio
+print("Comenzó el diluvio")
+arca.clear()
+print(arca)
