@@ -13,7 +13,7 @@ ambientes.update({
     "sabana": {"especies": {"elefante", "león"}}
 })
 
-# Verificar si 'amazonas' existe en el diccionario
+# Verificar si 'amazonas' existe 
 aux = "amazonas" in ambientes
 print("Existe el amazonas:", aux)
 
