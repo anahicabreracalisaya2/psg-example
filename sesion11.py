@@ -131,6 +131,7 @@ print(diccionario)
 par = diccionario.popitem()
 print(par, type(par))
 print(diccionario)
+## Metodos de copia
 print ("Asignación por referencia")
 diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
 print(diccionario)
