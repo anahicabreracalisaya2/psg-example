@@ -93,6 +93,20 @@ print ((a or b) and not (a and b))
 a = True
 b = True
 print ((a or b) and not (a and b))
+print ("Ejemplo de uso Sensor y Batería")
+sensor = True
+bateria = True
+print (sensor, "and", bateria, "=", sensor and bateria)
+sensor = True
+bateria = False
+print (sensor, "and", bateria, "=", sensor and bateria)
+sensor = False
+bateria = True
+print (sensor, "and", bateria, "=", sensor and bateria)
+sensor = False
+bateria = False
+print (sensor, "and", bateria, "=", sensor and bateria)
+
 print ("Ejemplo 1 - Comparación y Lógicos")
 numero = 20
 print (numero >= 0 and numero <= 100)
