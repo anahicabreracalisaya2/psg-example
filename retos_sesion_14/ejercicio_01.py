@@ -8,3 +8,4 @@ def promedio(calificaciones):
 calificaciones = [50, 75, 80, 91, 70]
 promedio = promedio(calificaciones)
 print("El promedio de las calificaciones es:", promedio)
+ 
