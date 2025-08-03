@@ -1,28 +1,29 @@
-# tablero vacío
+# Tablero vacío
 tablero = [[" " for _ in range(3)] for _ in range(3)]
 
+# Jugador inicial
 jugador_actual = "X"
 
-# mostrar el tablero
+# Mostrar el tablero
 def mostrar_tablero():
     print("  1 2 3")
     for i in range(3):
-        print(i+1, end=" ")
+        print(i + 1, end=" ")
         for j in range(3):
             print(tablero[i][j], end=" ")
         print()
 
-# determinar ganador
+# Verificar si hay ganador
 def hay_ganador():
     for i in range(3):
-        # filas
+        # Filas
         if tablero[i][0] == tablero[i][1] == tablero[i][2] != " ":
             return True
-        # columnas
+        # Columnas
         if tablero[0][i] == tablero[1][i] == tablero[2][i] != " ":
             return True
 
-    # diagonales
+    # Diagonales
     if tablero[0][0] == tablero[1][1] == tablero[2][2] != " ":
         return True
     if tablero[0][2] == tablero[1][1] == tablero[2][0] != " ":
@@ -38,22 +39,25 @@ def es_empate():
                 return False
     return True
 
-# juego principal
+# Función principal del juego
 def jugar():
     global jugador_actual
 
     while True:
         mostrar_tablero()
         print("Turno del jugador:", jugador_actual)
-        
-        # jugada
-        fila = int(input("Ingresa la fila (1, 2, 3): ")) -1
-        columna = int(input("Ingresa la columna (1, 2, 3): ")) -1
 
-        # Verificar si jugada ocupada
-        if tablero[fila][columna] != " ":
-            print("Esa casilla ya está ocupada. Intenta de nuevo.")
-            continue
+        # Validación con while
+        while True:
+            fila = int(input("Ingresa la fila (1, 2, 3): ")) - 1
+            columna = int(input("Ingresa la columna (1, 2, 3): ")) - 1
+
+            if fila < 0 or fila > 2 or columna < 0 or columna > 2:
+                print("Fila o columna fuera de rango, intenta de nuevo.")
+            elif tablero[fila][columna] != " ":
+                print("Esa casilla ya está ocupada, intenta de nuevo.")
+            else:
+                break  # Entrada válida
 
         # Colocar la ficha
         tablero[fila][columna] = jugador_actual
@@ -61,13 +65,13 @@ def jugar():
         # Verificar si ganó
         if hay_ganador():
             mostrar_tablero()
-            print("¡Ganó el jugador", jugador_actual + "!")
+            print("Ganó el jugador:", jugador_actual )
             break
 
-        # Verificar empate
+        # Verificar si es empate
         if es_empate():
             mostrar_tablero()
-            print("¡Es un empate!")
+            print("Es un empate :(")
             break
 
         # Cambiar de jugador
