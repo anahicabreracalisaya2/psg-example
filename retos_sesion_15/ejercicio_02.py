@@ -10,13 +10,14 @@ while True:
             print("Mi frutero contiene:", canasta)
             break
         if fruta not in fruta_permitida:
-            raise malo("Esta no es una fruta") 
+            raise NoFrutaError("Esta no es una fruta") 
         canasta.append(fruta)
-    except malo as e:
+    except NoFrutaError as e:
         print("🍃 Error frutal:", e)
     except Exception as e:
         print("💀 Error:", e)
     else:
         print("🎉 Fruta agregada")
+
 
         
