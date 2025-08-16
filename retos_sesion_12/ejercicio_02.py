@@ -9,10 +9,9 @@ usuarios_reg = {
     "user3": "user123"
 }
 # Verificar datos correctos
-if usuario in usuarios_reg:
-    if usuarios_reg[usuario] == contraseña:
-        print("¡Acceso aprobado!")
-    else:
+if usuario in usuarios_reg and usuarios_reg[usuario] == contraseña :
+    print("¡Acceso aprobado!")
+elif usuario in usuarios_reg:
         print("Acceso denegado")
 else:
     print("No existe el usuario")
