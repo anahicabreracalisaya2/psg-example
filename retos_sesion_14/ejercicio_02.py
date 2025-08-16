@@ -17,5 +17,6 @@ def calcular(numero1,numero2, operacion):
     else:
         print("operacion invalida")
 
-p=calcular(10,5,"+")
-print("El resultado es:",p)
+p=calcular(10,0,"/")
+if p != None:
+    print("El resultado es:",p)
