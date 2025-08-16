@@ -199,3 +199,4 @@ while True:
         print("🎉 Palabra agregada")
     finally:
         print("Lista:", palabras)
+        

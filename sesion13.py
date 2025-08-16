@@ -111,13 +111,6 @@ for i, esfera in enumerate(esferas):
 #while condicion:
 #print("Código a ejecutar")
 
-#Ejemplo 12: imprimir los números mientras sean menores o igual a 5 empezando desde 0
-
-print ("Ejemplo 12")
-i = 0
-while i <= 5:
-    print(i)
-    i += 1
 
 #Ejemplo 12: imprimir los números mientras sean menores o igual a 5 empezando desde 0
 
@@ -247,7 +240,8 @@ for fila in matriz:
         print(columna, end=" ")
     print()
 print (matriz)
-#Ejercicio 6, Crear una matriz ingresando un número por teclado para el tamaño de la matriz y en cada posición colocar una tupla con (i, j)
+#Ejercicio 6, Crear una matriz ingresando un número por teclado 
+# para el tamaño de la matriz y en cada posición colocar una tupla con (i, j)
 print ("Ejercicio 6")
 n = int(input("Ingrese un número: "))
 matriz = [[(j, i) for i in range(n)] for j in range(n)]
