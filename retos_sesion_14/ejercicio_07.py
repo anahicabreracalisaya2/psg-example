@@ -1,5 +1,5 @@
 # Tablero vacío
-tablero = [[" " for _ in range(3)] for _ in range(3)]
+tablero = [[" " for i in range(3)] for j in range(3)]
 
 # Jugador inicial
 jugador_actual = "X"
