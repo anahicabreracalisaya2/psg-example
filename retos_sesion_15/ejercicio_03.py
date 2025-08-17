@@ -1,4 +1,3 @@
-
 class FondosInsuficientes(Exception):
     pass
 
@@ -8,7 +7,8 @@ try:
     monto = float(input("Ingrese el monto que desea retirar: "))
     if monto > 1000:
         raise Exception("El monto excede el límite permitido")
-    
+    if monto <= 0:
+        raise Exception("El monto ingresado es invalido, debe ser mayor a 0")    
     if monto > saldo_disponible:
         raise FondosInsuficientes("Fondos insuficientes para realizar el retiro")
     
