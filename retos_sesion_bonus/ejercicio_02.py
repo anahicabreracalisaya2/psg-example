@@ -1,6 +1,6 @@
 def obtener_aleatorio():
     numeros = list(range(1, 101))
-    i=(numeros[0]*17+numeros[-1]%len(numeros))
+    i=((numeros[0]*17+numeros[-1])%len(numeros))
     secreto = numeros.pop(i)
     return secreto
 
